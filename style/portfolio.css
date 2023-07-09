@@ -1,28 +1,33 @@
-*{
+* {
     margin: 0;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     margin: 0px 100px;
-    
+
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-ul li{
-    
+
+ul li {
+
     list-style: none;
     margin: 20px;
 }
-ul a{
+
+ul a {
     color: #181818;
     text-decoration: none;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-style: normal;
@@ -30,10 +35,12 @@ ul a{
     line-height: normal;
     cursor: pointer;
 }
-.nav-title > span{
+
+.nav-title>span {
     color: #FD6E0A;
 }
-.primary-btn{
+
+.primary-btn {
     background-color: #FD6E0A;
     color: white;
     padding: 15px 18px;
@@ -41,13 +48,15 @@ ul a{
     border-radius: 5px;
     cursor: pointer;
 }
-header{
+
+header {
     background-color: #FD6E0A1A;
     background-image: url("images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner-container{
+
+.banner-container {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
@@ -55,42 +64,165 @@ header{
     padding: 30px 30px 0px 100px;
     margin: 0;
 }
-.banner-pic{
+
+.banner-pic {
     width: 584px;
     height: 676px;
 }
-.banner-greet{
+
+.banner-greet {
     font-size: 18px;
-    
+
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-style: normal;
     margin-top: -5px;
 }
-.banner-des{
+
+.banner-des {
     font-size: 10x;
     margin-bottom: 15px;
 
 }
-.about{
+
+.about {
     padding: 130px;
     margin: 130px 0;
     border-radius: 10px;
     background: #FFF8F3;
 }
-.title{
+
+.title {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.about-info-container{
+
+.about-info-container {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
-.about-info-title{
+
+.about-info-title {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
+    color: #757575;
+
+}
+
+.about-info-des {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-me-details {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #757575;
+    font-style: normal;
+    padding: 30px 150px;
+}
+
+.what-i-do-des {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 30px 170px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.skill {
+    width: 267px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.skill-des {
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.summary {
+    margin: 130px 0;
+}
+
+.summary-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.summary-title {
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.degree-name {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.versity-name {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.study-details {
+    margin: 20px 0 30px 0;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.summary-content{
+    margin-bottom: 20px;
+}
+.downloadcv{
+    text-align: center;
+}
+.contact-container{
+    display: flex;
 }
