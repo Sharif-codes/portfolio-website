@@ -28,6 +28,7 @@ ul a{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    cursor: pointer;
 }
 .nav-title > span{
     color: #FD6E0A;
@@ -38,25 +39,58 @@ ul a{
     padding: 15px 18px;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 header{
     background-color: #FD6E0A1A;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner-container{
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 30px 30px 100px;
+    padding: 30px 30px 0px 100px;
+    margin: 0;
 }
 .banner-pic{
     width: 584px;
     height: 676px;
 }
 .banner-greet{
-    font-size: 40px;
+    font-size: 18px;
+    
 }
 .banner-title{
     font-size: 85px;
-    font-style: normal; 
+    font-style: normal;
+    margin-top: -5px;
+}
+.banner-des{
+    font-size: 10x;
+    margin-bottom: 15px;
+
+}
+.about{
+    padding: 130px;
+    margin: 130px 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.title{
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-title{
+    text-align: center;
 }
