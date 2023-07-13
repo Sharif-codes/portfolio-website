@@ -49,9 +49,11 @@ ul a {
     cursor: pointer;
 }
 
+
+
 header {
     background-color: #FD6E0A1A;
-    background-image: url("images/header_bg.png");
+    background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -225,4 +227,9 @@ main {
 }
 .contact-container{
     display: flex;
+
+}
+.contact-container{
+    
+
 }
