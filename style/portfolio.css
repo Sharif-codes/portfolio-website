@@ -7,7 +7,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    margin: 0px 100px;
+    margin: 0px 130px;
 
 }
 
@@ -43,7 +43,7 @@ ul a {
 .primary-btn {
     background-color: #FD6E0A;
     color: white;
-    padding: 15px 18px;
+    padding: 10px 10px;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
@@ -53,9 +53,9 @@ ul a {
 
 header {
     background-color: #FD6E0A1A;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
 }
 
 .banner-container {
@@ -63,13 +63,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 30px 0px 100px;
-    margin: 0;
+    padding: 30px 30px 0px 130px;
+    margin: auto;
 }
 
 .banner-pic {
-    width: 584px;
-    height: 676px;
+    width: 110%;
+    height: 110%;
+    display: block;
 }
 
 .banner-greet {
@@ -219,17 +220,49 @@ main {
     font-style: normal;
     font-weight: 400;
 }
-.summary-content{
+
+.summary-content {
     margin-bottom: 20px;
 }
-.downloadcv{
+
+.downloadcv {
     text-align: center;
 }
-.contact-container{
+
+.contact-container {
+    padding: 80px;
     display: flex;
-
+    justify-content: space-around;
+    background-color: #FFF8F3;
 }
-.contact-container{
-    
 
+.contact-form {
+    display: block;
+    border: 0;
+}
+
+.name,
+.email,
+.textarea {
+    align-items: center;
+    margin-top: 20px;
+    border: 0;
+    padding: 10px;
+    width: 300px;
+}
+
+.lets-contact-title,
+.contact-form-title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-details {
+    padding: 20px 0;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 12px;
+    width: 400px;
+}
+.icons{
+    padding: 10px;
 }
