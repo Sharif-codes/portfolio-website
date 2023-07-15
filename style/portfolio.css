@@ -266,3 +266,52 @@ main {
 .icons{
     padding: 10px;
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .contact-container, .summary-container, .skill-container , .about-info-container{
+        flex-direction: column;
+        padding: 10px;
+        width: auto;
+    }
+    .contact-details, .about-me-details, .study-details{
+        width:100%;
+    }
+    .what-i-do-des{
+    padding: 20px 10px;
+    } 
+    .about, .about-me-details{
+        padding: 10px;
+        width: 95%;
+    }
+    .about-info-des{
+        text-align: center;
+    }
+    .banner-pic{
+        width: 95%;
+        height: 95%;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        width: auto;
+        padding: 10px;
+    }
+    header {
+        background-color: white ;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: bottom right, bottom left;
+    }
+    nav{
+        width: 100%;
+        margin: 0px;
+    }
+    .nav-title{
+        display: none;
+    }
+    nav > ul{
+        flex-wrap: wrap;
+    }
+
+}
